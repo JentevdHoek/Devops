@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cc7ae2-3d83-43ba-8eb5-c2fc8127f237" name="Changes" comment="1.5">
+    <list default="true" id="22cc7ae2-3d83-43ba-8eb5-c2fc8127f237" name="Changes" comment="1.6">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/week1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/week1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/services/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/week1/services/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="github/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,6 +80,7 @@
   "keyToString": {
     "Jest.All Tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.0.0",
     "javascript.nodejs.core.library.typings.version": "22.0.3",
@@ -118,7 +143,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739950053260</updated>
-      <workItem from="1739950054387" duration="7510000" />
+      <workItem from="1739950054387" duration="9685000" />
+      <workItem from="1740643408648" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -144,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739955790232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.6">
+      <option name="closed" value="true" />
+      <created>1739958377157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739958377157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +188,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5" />
+    <MESSAGE value="1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
   </component>
 </project>
