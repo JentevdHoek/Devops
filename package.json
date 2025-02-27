@@ -4,7 +4,8 @@
   "description": "devops-opdracht-2425-JentevdHoek created by GitHub Classroom",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Avans/devops-opdracht-2425-JentevdHoek/issues"
   },
-  "homepage": "https://github.com/Avans/devops-opdracht-2425-JentevdHoek#readme"
+  "homepage": "https://github.com/Avans/devops-opdracht-2425-JentevdHoek#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
