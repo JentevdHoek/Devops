@@ -10,8 +10,6 @@ permissions:
   checks: write
   contents: read
   pull-requests: write
-  issues: write
-  statuses: write
 
 jobs:
   build:
@@ -35,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
       
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -49,9 +47,4 @@ jobs:
       - name: Jest coverage report
         uses: ArtiomTr/jest-coverage-report-action@v2.3.1
         with:
-          github-token: ${{ github.token }} 
-          test-script: npm test
-          package-manager: npm
-          output-dir: ./coverage
-          annotations: none 
-          coverage-file: ./coverage/coverage-final.json 
+          github-token: ${{ github.token }}
