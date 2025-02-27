@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cc7ae2-3d83-43ba-8eb5-c2fc8127f237" name="Changes" comment="node in root">
-      <change afterPath="$PROJECT_DIR$/__tests__/indexTest.js" afterDir="false" />
+    <list default="true" id="22cc7ae2-3d83-43ba-8eb5-c2fc8127f237" name="Changes" comment="jest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/__tests__/routes/users.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/week1/__tests__/routes/users.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739950053260</updated>
       <workItem from="1739950054387" duration="9685000" />
-      <workItem from="1740643408648" duration="2187000" />
+      <workItem from="1740643408648" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -189,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740644270711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="jest">
+      <option name="closed" value="true" />
+      <created>1740645957652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740645957652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +206,7 @@
     <MESSAGE value="1.5" />
     <MESSAGE value="1.6" />
     <MESSAGE value="node in root" />
-    <option name="LAST_COMMIT_MESSAGE" value="node in root" />
+    <MESSAGE value="jest" />
+    <option name="LAST_COMMIT_MESSAGE" value="jest" />
   </component>
 </project>

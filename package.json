@@ -4,7 +4,7 @@
   "description": "devops-opdracht-2425-JentevdHoek created by GitHub Classroom",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "node ./bin/www"
   },
   "repository": {
@@ -17,6 +17,13 @@
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Avans/devops-opdracht-2425-JentevdHoek/issues"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "lcov", "text", "clover"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "homepage": "https://github.com/Avans/devops-opdracht-2425-JentevdHoek#readme",
   "devDependencies": {
